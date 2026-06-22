@@ -13,8 +13,10 @@ accountCity="Rishikesh"
 console.log(accountId);
 
 /*
-Prefer not to use var
-because of issue in block scope and functional scope
+Prefer not to use var because:
+1. var is function-scoped, not block-scoped.
+2. var can be redeclared, which may cause bugs.
+3. let and const provide better scope control and safer code.
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
