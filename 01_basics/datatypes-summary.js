@@ -24,17 +24,38 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
+    name: "aryan",
     age: 22,
 }
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
-console.log(typeof anotherId);
-console.log(typeof myFunction);
-console.log(typeof heros);
-console.log(typeof myObj);
+// console.log(typeof anotherId);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof myObj);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++
+// Stack (Primitive), Heap(Non-Primitive)
+
+// let myName="Aryan"
+// let anotherName=myName
+// anotherName="Gautam"
+// console.log(myName);
+// console.log(anotherName);
+
+let userOne ={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+userTwo=userOne
+
+userTwo.email="aryan@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
