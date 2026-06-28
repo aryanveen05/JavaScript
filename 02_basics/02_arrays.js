@@ -29,3 +29,7 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2, score3));
+
+// Array.from() is a static method in JavaScript used to create a new array from an iterable object (such as strings, Sets, Maps) or an array-like object (an object with a length property). It is useful for converting non-array data structures into arrays.
+
+// Array.of() is a static method in JavaScript used to create a new array from the arguments passed to it. Unlike the Array() constructor, it treats all arguments as array elements, even when only a single number is provided.
